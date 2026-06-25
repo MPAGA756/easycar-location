@@ -1,0 +1,58 @@
+import '../models/rental_model.dart';
+
+final List<RentalModel> dummyRentals = [
+  RentalModel(
+    id: 'r1',
+    carId: 'c3',
+    userId: 'u2',
+    startDate: DateTime(2025, 6, 1),
+    endDate: DateTime(2025, 6, 5),
+    totalPrice: 14000,
+    status: 'completed',
+  ),
+  RentalModel(
+    id: 'r2',
+    carId: 'c8',
+    userId: 'u3',
+    startDate: DateTime(2025, 6, 10),
+    endDate: DateTime(2025, 6, 15),
+    totalPrice: 22500,
+    status: 'active',
+  ),
+  RentalModel(
+    id: 'r3',
+    carId: 'c1',
+    userId: 'u4',
+    startDate: DateTime(2025, 5, 20),
+    endDate: DateTime(2025, 5, 25),
+    totalPrice: 25000,
+    status: 'completed',
+  ),
+  RentalModel(
+    id: 'r4',
+    carId: 'c5',
+    userId: 'u2',
+    startDate: DateTime(2025, 6, 18),
+    endDate: DateTime(2025, 6, 21),
+    totalPrice: 24000,
+    status: 'completed',
+  ),
+  RentalModel(
+    id: 'r5',
+    carId: 'c7',
+    userId: 'u3',
+    startDate: DateTime(2025, 5, 10),
+    endDate: DateTime(2025, 5, 13),
+    totalPrice: 36000,
+    status: 'completed',
+  ),
+  RentalModel(
+    id: 'r6',
+    carId: 'c2',
+    userId: 'u4',
+    startDate: DateTime(2025, 6, 22),
+    endDate: DateTime(2025, 6, 25),
+    totalPrice: 22500,
+    status: 'active',
+  ),
+];
